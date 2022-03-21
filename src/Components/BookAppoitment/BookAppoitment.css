@@ -8,6 +8,7 @@
     background-color: #ffffff;
     line-height: 4rem;
     margin-top: 2rem;
+    overflow: hidden;
   }
   .appointment  label {
     color: #393939;
