@@ -21,6 +21,23 @@ margin-top: 2.5rem !important;
 text-decoration: underline  4px solid red;
 text-underline-position: under;
 }
+.top-navbar .dropdown-menu {
+    background-color: black !important;
+    border: 1px solid white;
+}
+.top-navbar .dropdown-menu .dropdown-item {
+    color: white;
+}
+.top-navbar .dropdown-menu .dropdown-item:hover {
+    color: red;
+}
+.top-navbar .dropdown-menu .dropdown-item a  {
+    color: #ffff;
+    text-decoration: none;
+}
+.top-navbar .dropdown-menu .dropdown-item a:hover  {
+    color: red;
+}
 @media (max-width: 992px) {
 .top-navbar .navbar-collapse {
         position: fixed;
@@ -46,5 +63,9 @@ text-underline-position: under;
 
     .top-navbar .navbar-toggler.collapsed ~ .navbar-collapse {
         transition: left 500ms ease-in-out;
+    }
+    .top-navbar-logo img {
+        width: 290px;
+        height: 100px;
     }
 }
