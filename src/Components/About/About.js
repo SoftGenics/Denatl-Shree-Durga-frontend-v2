@@ -6,7 +6,7 @@ function About() {
   return (
     <div id="about">
         <Container className='about-container' id="doctor">
-        <h2 className="text-center mt-5 mb-5">OABOUT <span style={{color:'red'}}> &nbsp;SHREE DURGA DENTAL CLINIC</span></h2>
+        <h2 className="text-center mt-5 mb-5">ABOUT <span style={{color:'red'}}> &nbsp;SHREE DURGA DENTAL CLINIC</span></h2>
         <Container>
             
                 <Card >
